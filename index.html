@@ -9,366 +9,458 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="dist/css/lightbox.min.css">
+
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Qwigley&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> 
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
 
+<!-- Include JS File Here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/registration.js"></script>
+  </head>
+	
 <body text="#000000" link="#000080" vlink="#800000" style="padding-top: 70px" dir="ltr" lang="en-US">
   <!-- body code goes here -->
-
-<!--
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-custom"> <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"> <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a> </li>
-                 <li class="nav-item"> <a class="nav-link" href="#">Offerings</a> </li>
-        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Findhorn Spirit Oracle</a> <a class="dropdown-item" href="#">Other Offerings</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">About Swan</a>
-          </div>
-        </li>
-                  <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+  <nav class="navbar fixed-top navbar-dark navbar-expand-md" id="app-navbar">
+    <div class="container-fluid"><a class="navbar-brand" href="#"><i id="brand-logo">SwanTreasure.com</i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">&nbsp;</span><span
+          class="navbar-toggler-icon">&nbsp;</span></button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><i class="fas fa-home"></i></a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="mailto:ORACLE@SWANTREASURE.COM?subject=Web Inquiry">Contact</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" class="ptbkbtn" target="_blank" style="float:none;">Appointment</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
--->
-<nav class="navbar fixed-top navbar-dark navbar-expand-md" id="app-navbar">
-    <div class="container-fluid"><a class="navbar-brand" href="#"><i id="brand-logo">SwanTreasure.com</i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">&nbsp;</span><span class="navbar-toggler-icon">&nbsp;</span></button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" role="presentation" ><a class="nav-link active" href="SwanTreasure.com">Home</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="mailto:ORACLE@SWANTREASURE.COM?subject=Web Inquiry">Contact</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Shop</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Appointments</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
   <div id="page_top"><a href="#"></a></div>
 
-<!--Main part-->
+  <!--Main part-->
   <div class="containerTop">
-<!--<img src="images/FC logo.png" width="100" alt=""/>-->
-	
-<div class="narrower "> 
-  <h1>Welcome</h1>
-    <h3> May this site be for you a gateway to new realities, a treasure chest in which to rediscover your innate brilliance, a portal to expanded awareness, an opening for blessings and miracles in your life…</h3>
-  </div>
-	 <br>
+    <h1 style="text-align: center">YOU ARE WELCOMED</h1>
+    <div class="narrower">
+      <h3> May this site be for you a gateway to new realities, a treasure chest in which to rediscover your innate brilliance, a portal to expanded awareness, an opening for blessings and miracles in your life…</h3>
+    </div>
+    <br>
     <h2> You are invited on a multidimensional journey, begin here. </h2>
     <br>
 
-    <div class="row areasOfOffers">
+    <div class="row">
       <div class="col-sm-4">
-        <a href="#oracleCard"><img src="images/37S.jpg" alt="Placeholder image" class="rounded-circle img-fluid columnImageSmall">
-		<h3>Findhorn Spirit Oracle</h3>
+        <a href="#oracleCard"><img src="images/OracleCard27forCircle.jpg" alt="Placeholder image" class="rounded-circle img-fluid columnImageSmall">
+          <p>Findhorn Spirit Oracle</p>
         </a>
       </div>
       <div class="col-sm-4">
         <a href="#artCommisions"><img src="images/005S.jpg" class="rounded-circle img-fluid columnImageSmall" alt="Placeholder image">
-          <h3>Art &amp; Commissions</h3>
+          <p>Art &amp; Commissions</p>
         </a>
       </div>
       <div class="col-sm-4">
         <a href="#groupsEvent"><img src="images/001S.jpg" alt="Placeholder image" class="rounded-circle img-fluid columnImageSmall">
-          <h3>Groups &amp; Events</h3>
-        </a>
-      </div>
-		 <div class="col-sm-4">
-        <a href="#illuminatedDialogues"><img src="images/IlluminatedCircle.jpg" alt="Placeholder image" class="rounded-circle img-fluid columnImageSmall">
-          <h3>Illuminated Dialogues &amp; Mentoring</h3>
-        </a>
-      </div>
-	  <div class="col-sm-4">
-        <a href="#transformationGame"><img src="images/transformationGameCircleBox.jpg" class="rounded-circle img-fluid columnImageSmall" alt="Placeholder image">
-          <h3>Transformation Game</h3>
+          <p>Groups &amp; Events</p>
         </a>
       </div>
       <div class="col-sm-4">
-        <a href="about.html"><img src="images/aboutMeSwan.jpg" class="rounded-circle img-fluid columnImageSmall" alt="Placeholder image">
-          <h3>About Swan</h3>
+        <a href="#illuminatedDialogues"><img src="images/IlluminatedCircleA.jpg" alt="Placeholder image" class="rounded-circle img-fluid columnImageSmall">
+          <p>Illuminated Dialogues &amp; Mentoring</p>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <a href="#transformationGame"><img src="images/transformationGameCircleBox.jpg" class="rounded-circle img-fluid columnImageSmall" alt="transformationGame">
+          <p>Transformation Game</p>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <a href="aboutSwan.html"><img src="images/aboutMeSwan.jpg" class="rounded-circle img-fluid columnImageSmall" alt="aboutSwan">
+          <p>About Swan</p>
         </a>
       </div>
     </div>
-    <!--row areasOfOffers-->
-</div>
+  </div>
   <!--containerTop-->
 
   <div id="oracleCard">
     <div class="containerBG">
       <img src="images/Findhorn Spirit WEB banner.jpg" width="100%" alt="" class="bannerBox">
-		
 
-      <h3>Let’s go places…. rise into the mystery and glory of your own essential nature…. </h3>
+
+      <h3 style="color: #ff6600;">Let’s go places…. rise into the mystery and glory of your own essential nature…. </h3>
       <br>
-      <p style="text-align: center;">The Findhorn Spirit Oracle deck will be available for purchase on February 2022.</p>
-      <button type="button" class="btn btn-link btnBlue">pre-order your deck</button>
-	 <hr>
 
-	  <div class="jumbotron inlineBlockList col-sm-8">
-	   <h2 class="display-6">One-to-One Reading</h2>
-<h3>Swan is a gifted psychic and intuitive reader and has help thousands of people find their path and joy in life. She is working in alliance with the Spirit guides that appear in the Findhorn Spirit Oracle deck as well as with the Angelic realms and the archetypes. </h3>	 
-	   <hr class="my-6">
-    <p>Some of her favourite decks are the OSHO Zen Tarot, the Inner Child cards, the Medicine cards and the Spirit Animal oracle. Come to a reading with her prepared for revelation and transformation.</p>
-    <p>Cost: £90 for 1 hour</p>
-	   <p class="lead"> <a class="btn btn-primary btn-sm" href="#" role="button">Book a reading</a> </p>
-  </div>	
-    </div> <!-- containerOracle-->
-  </div>
-	
-<div class="serviceList">
-<div id="artCommisions" class="containerBGBlueText">
-    <img class="containerBG" src="images/005.jpg" width="100%" height="auto" alt="" />
-    <h1 class="containerBGBlueText">Art &amp; Commissions</h1>
-  </div> <!-- containerBG-->
-<div class="containerOffers">
-  <div class="jumbotron inlineBlockList col-sm-5">
-	   <h2 class="display-6">Oracle Art</h2>
-<h3>THIS IS A ONE IN A LIFETIME CHANCE TO BUY AN ORIGINAL TOUCH-DRAWING OF THE SPIRIT GUIDES FEATURED IN THE FINDHORN SPIRIT ORACLE DECK. </h3>	 
-	   <hr class="my-6">
-	   <p>Other inspiring and unique oracle art is also available. </p>
-	   <p>Price: from £350 to £600 (including postal charges)</p>
+      <p>Pre-order your deck here. </p>
+        <button type="button" class="btn btn-secondary btnBookShop"><a href="https://www.booksamillion.com/p/9781644113745" target="_blank"><img class="bookShopLogo" SRC="images/bookshopLogoBam.png"></a></button>
+        <button type="button" class="btn btn-secondary btnBookShop"><a href="https://bookshop.org/books/findhorn-spirit-oracle-cards/9781644113745" target="_blank"><img class="bookShopLogo" SRC="images/bookshopLogoBS.png"></a></button>
+        <button type="button" class="btn btn-secondary btnBookShop"><a
+            href="https://www.barnesandnoble.com/w/findhorn-spirit-oracle-cards-swan-treasure/1138978643;jsessionid=F6EA038E965F750B07CD895DE856854D.prodny_store01-atgap07?ean=9781644113745&st=AFF&2sid=Simon%20&%20Schuster_7567305_NA&sourceId=AFFSimon%20&%20Schuster"
+            target="_blank"><img class="bookShopLogo" SRC="images/bookshopLogoBN.png"></a></button>
+        <button type="button" class="btn btn-secondary btnBookShop"><a href="https://www.innertraditions.com/books/findhorn-spirit-oracle-cards" target="_blank"><img class="bookShopLogo" SRC="images/bookshopLogoBearComp.PNG"></a></button>
+        <button type="button" class="btn btn-secondary btnBookShop"><a href="https://www.simonandschuster.com/books/Findhorn-Spirit-Oracle-Cards/Swan-Treasure/9781644113745" target="_blank"><img class="bookShopLogo"
+              SRC="images/bookshopLogoSS.PNG"></a></button>
+        <button type="button" class="btn btn-secondary btnBookShop"><a href="https://www.amazon.co.uk/dp/1644113740?linkCode=gs2&tag=siscuk-21" target="_blank"><img class="bookShopLogo" SRC="images/bookshopLogoAMZ.png"></a></button>
+        <button type="button" class="btn btn-secondary btnBookShop"><a href="https://www.indiebound.org/book/9781644113745?aff=simonsayscom" target="_blank"><img class="bookShopLogo" SRC="images/bookshopLogoIN.png"></a></button>
+      <hr>
 
-<div class="forSale"><ul class="imgForSale">
-	
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw9-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 9</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw10-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 10</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw11-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 11</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw14-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 14</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw20-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 20</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw22-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 22</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw24-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 24</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw26-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 26</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw27-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 27</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw28-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 28</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw41-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 41</div>
-	</div>
-</div> </li>
-<li class="listForSale">
-<div class="sample1">
-	<img class="listForSale" src="images/Findhorn Spirit Oracle Cards full deck bw43-.jpg" />
-	<div class="mask">
-	<div class="caption">Image No. 43</div>
-	</div>
-</div> </li>
-</ul> </div>
-	  
-	   <p class="lead"> <a class="btn btn-primary btn-sm" href="mailto:ORACLE@SWANTREASURE.COM ?subject=Oracle Art Purchase" role="button">Purchase</a> </p>
-  </div>
- <div class="jumbotron inlineBlockList col-sm-5">
-	   <h2 class="display-6">Oracle Art Commissions</h2>
-<h3>It is possible to have your very own spirit guide rendered with touch-drawing by Swan.</h3>	 
-	   <hr class="my-6">
-	 <p>When you commission an art Swan will meet you for an online consultation. After that she will attune with the spirit realms on your behalf. Once the image has come through, there will be a second online meeting in which you will be able to view your oracle art and to hear the message that Spirit has for you</p>  
-	 <p>Price: £250.</p>
-    <p>If you can then decide to purchase the original touch-drawing or to release it. If you wish to have you can make a donation towards it and it will be sent to you.</p>
-    <p>GIFTS VOUCHERS are available if you wish to offer this process as a gift to a lonved one.</p>
-	   <p class="lead"> <a class="btn btn-primary btn-sm" href="mailto:ORACLE@SWANTREASURE.COM ?subject=Inquiry - Commission and/or Vaouchers" role="button">Commission/Vouchers</a> </p>
-  </div>
-  </div> <!-- containerOffers-->
+      <div id="container">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+        <h2>Findhorn Spirit Oracle Reading</h2>
+        <h3>Hold your question in your heart and click on the button below to receive a message.</h3>
 
-	
-  <div id="groupsEvent" class="containerBG">
-    <img class="containerBG" src="images/001.jpg" width="100%" alt="Groups &amp; Events" />
-    <h1 class="containerBG">Groups &amp; Events</h1>
-  </div> <!-- containerBG-->
- 
+        <div id="display">
+          <img src="images/Findhorn Spirit Oracle Cards back.jpg" class="img-fluid oracleBackImg" alt="Placeholder image">
+        </div>
 
-<div class="containerOffers">
+      </div>
+      <br>
+      <button type="button" class="btn btn-info" id="draw">Draw a card</button>
+    </div>
+    <script src="js/oracleReading.js"></script>
+    <hr>
+
+    <div class="card col-md-8 col-lg-6 serviceCard">
+      <div class="card-body">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+        <h2 class="card-title text-center">One-to-One Reading</h2>
+        <h3 class="card-text">Swan is a gifted psychic and intuitive reader and has help thousands of people find their path and joy in life. She is working with the Findhorn Spirit Oracle which is the alliance of spirit guides that appears in the
+          deck.</h3>
+        <hr class="my-6">
+        <p>Some of her other favorite decks are the OSHO Zen Tarot, the Inner Child cards, the Medicine cards and the Spirit Animal oracle. Come to a reading with her prepared for revelation and transformation.</p>
+        <p>Cost: £90 for 1 hour</p>
+        <p class="lead"> <a class="btn btn-info btn-sm" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" target="_blank" role="button">Book a reading</a> </p>
+      </div>
+    </div>
     <br>
-	    <h4>If you are feeling called to work with the alliance of spirit guides that have co-created the Findhorn Spirit Oracle deck you can join one of the following online groups: </h4>
-	
-  <div class="jumbotron inlineBlockList col-sm-5">
-	   <h2 class="display-6">Gathering Spirit</h2>
-<h3>This is a weekly online study group to explore and connect with the spirit guides that have informed the Findhorn Spirit Oracle deck. </h3>	 
-	   <hr class="my-6">
-	   <p>A sacred space is established in which to communicate with the spirit beings representedin the cards, offering a conscious container for co-creative spirituality, sharing our experiences and learning together. This is an open group and each gathering will be of 90 minutes on Zoom.</p>
-       <p>Pay what you can: £1-£10–£20 or more</p>	  
-    <p class="lead"> <a class="btn btn-primary btn-sm" href="#" role="button">Book your place</a> </p>
   </div>
+  <!-- containerOracle-->
+
+  <div>
+    <div id="artCommisions" class="containerBGBlueText">
+      <img class="containerBG" src="images/005.jpg" width="100%" height="auto" alt="" />
+      <!--    <h1 class="containerBGBlueText">Art &amp; Commissions</h1>-->
+    </div> <!-- containerBG-->
+<section class="features">
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-6">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+		<h2>Oracle Art</h2>
+		<h3>THIS IS A ONE IN A LIFETIME CHANCE TO BUY AN ORIGINAL TOUCH-DRAWING OF THE SPIRIT GUIDES FEATURED IN THE FINDHORN SPIRIT ORACLE DECK.</h3>
+      <hr class="my-6">
+      <p>Other inspiring and unique oracle art is also available. </p>
+      <p>Cost: from £400 to £800 (including postal charges)</p>
+		
+<br>
+      <div class="forSale">
+        <ul class="imgForSale">
+
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo saleArt" href="images/FSOC-04Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC04-.jpg" alt="image-04"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo saleArt" href="images/FSOC-08Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC08-.jpg" alt="image-08"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo saleArt" href="images/FSOC-10Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC10-.jpg" alt="image-10"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo saleArt" href="images/FSOC-11Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC11-.jpg" alt="image-11"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo" href="images/FSOC-14Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC14-.jpg" alt="image-14"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo" href="images/FSOC-16Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC16-.jpg" alt="image-16"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo" href="images/FSOC-20Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC20-.jpg" alt="image-20"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo saleArt" href="images/FSOC-28Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC28-.jpg" alt="image-28"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demosaleArt" href="images/FSOC-30Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC30-.jpg" alt="image-30"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demosaleArt" href="images/FSOC-35Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC35-.jpg" alt="image-35"></a>
+            </div>
+          </li>
+          <li class="listForSale">
+            <div class="sample1">
+              <a class="demo" href="images/FSOC-41Sale2.jpg" data-lightbox="gallery">
+                <img class="example-image" src="images/FSOC41-.jpg" alt="image-41"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <p>To view them CLICK HERE and scroll</p>
+      <p class="lead"> <a class="btn btn-info btn-sm" href="https://share-eu1.hsforms.com/1IVS2cnzmTgC0uuAqoJmT7Aetp9d" target="_blank" role="button">Purchase</a> </p>
+	</div>	  
 	
- <div class="jumbotron inlineBlockList col-sm-5">
-	   <h2 class="display-6">Sharing Spirit</h2>
-<h3>If you wish for a deep and personal interaction with the spirit beings of the Findhorn Spirit Oracle deck and with other fellow explorer of the subtle realms come on this 8-week expansive journey of consciousness. </h3>	 
-	<hr class="my-6">
-    <p>Each week will be dedicated to the Spirit Beings connected to one of the directions featured in the deck, plus there will be two weeks to get acquainted with the Landscape Angel and the Angel of Findhorn. Swan will closely support each participant of this group in their evolutionary journey and if needed she will assist in releasing any communication’s block that may arise along the way in a one to one Zoom call.</p>
-    <p>A Whatsapp group will be available for participants who wish to keep in touch with each others during the week and ongoing connection with Swan.
-      NUMBERS ARE LIMITED TO 8 PEOPLE IN EACH GROUP. Dates t.b.c. please inquire.
-      Price: £470 </p>
-	   <p class="lead"> <a class="btn btn-primary btn-sm" href="mailto:ORACLE@SWANTREASURE.COM ?subject=Web Inquiry - Sharing Spirit" role="button">Inquire</a> </p>
-  </div>
-  </div> <!-- containerOffers / Groups & Events-->
-	
-
-	<div id="illuminatedDialogues" class="containerBG">
-    <img class="containerBG" src="images/illuminatedBanner.jpg" width="100%" alt="Illuminated Dialogues &amp; Mentoring" />
-    <h1 class="containerBG">Illuminated Dialogues &amp; Mentoring</h1>
-  </div> 
-	<!-- containerBG-->
-  <div class="containerOffers">
-	   <div class="jumbotron inlineBlockList col-sm-5">
-	   <h2 class="display-6">Illuminated Dialogues</h2>
-<h3>These are one-to-one consultations with Swan which last for 90 minutes.</h3>	 
-	   <hr class="my-6">
-    <p>Any topic can be brought to awareness in this kind of sessions which aim to rebalance and shine light wherever in your mind and heart there is uncertainty, suffering or confusion.</p>
-    <p>Price: £80</p>
-    <p>To express your interest or if you have any questions about this process please email swan@swan.treasure.com</p>  
-    <p class="lead"> <a class="btn btn-primary btn-ssm" href="#" role="button">Book a session</a> </p>
-  </div>
-	
- <div class="jumbotron inlineBlockList col-sm-5">
-	   <h2 class="display-6">Mentoring</h2>
-<h3>Swan is offering one-to-one session in the art of deep listening. The session are designed as practice to refine perception and open the communication channels. </h3>	 
-	<hr class="my-6">
-    <p>Each last 90 minutes and include a 20-minute silent sitting. </p>
-	  <p>Cost: £80 for the first session / £300 for a pack of four sessions </p>
-	   <p class="lead"> <a class="btn btn-primary btn-sm" href="#" role="button">Book a exploratory 30 minutes session</a> </p>
-  </div>
-</div> <!-- containerOffers / Illuminated Dialogues & Mentoring-->
-
-	
-<div id="transformationGame" class="containerBG">
-    <img class="containerBG" src="images/transformationGameBanner.jpg" width="100%" alt="Transformation Game" />
-  </div> <!-- containerBG-->						   
-  <div class="containerOffers">
-<div class="jumbotron inlineBlockList col-sm-8">
-	   <h2 class="display-6">One-to-One Reading</h2>
-<h3>Swan is a gifted psychic and intuitive reader and has help thousands of people find their path and joy in life. She is working in alliance with the Spirit guides that appear in the Findhorn Spirit Oracle deck as well as with the Angelic realms and the archetypes. </h3>	 
-	   <hr class="my-6">
-    <p>Some of her favourite decks are the OSHO Zen Tarot, the Inner Child cards, the Medicine cards and the Spirit Animal oracle. Come to a reading with her prepared for revelation and transformation.</p>
-    <p>Cost: £90 for 1 hour</p>
-	   <p class="lead"> <a class="btn btn-primary btn-sm" href="#" role="button">Book a reading</a> </p>
-  </div>	
-    </div> <!-- containerOracle-->
-  </div>
-
-
-  <div id="contactUs" class="containerContact">
-    <img class="containerBG" src="images/002.jpg"/>
-  <h1>Let's Connect!</h1>
-
+	<div class="col-md-6">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+		<h2>Oracle Art Commissions</h2>
+		<h3>It is possible to have your very own spirit guide rendered with touch-drawing by Swan.</h3>
+        <hr class="my-6">
+        <p>When you commission an art Swan will meet you for an online consultation. After that she will attune with the spirit realms on your behalf and co-create a painting. Once the image has come through, there will be a second online meeting in which you will be able to view your oracle art and to hear the message that Spirit has for you.</p>
+        <p>If you can then decide to purchase the original touch-drawing or to release it. If you wish to have it the cost for it is £250 (including postal charges).</p>
+        <p>GIFTS VOUCHERS are available if you wish to offer this process as a gift to a lonved one.</p>
+        <p class="lead"> <a class="btn btn-info btn-sm" href="https://share-eu1.hsforms.com/1IVS2cnzmTgC0uuAqoJmT7Aetp9d" target="_blank" role="button">Commission</a> </p>
+	</div>	  	
 </div>
-						
-
-  <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="containerFooter p-4 pb-0" style="background-color: #DED5E4;">
-      <!-- Section: Social media -->
-				      <h4>For questions about workshops, Oracle Cards, commissioned works or anything else please contact me via the buttons below. Thank you!</h4>
+</div>
+</section>
+	  
+    <!--  </div>  containerOffers-->
+    <div id="groupsEvent" class="containerBG">
+      <img class="containerBG" src="images/001.jpg" width="100%" alt="Groups &amp; Events" />
+      <!--    <h1 class="containerBG">Groups &amp; Events</h1>-->
+    </div> <!-- containerBG-->
+      <br>
+      <h3>If you are feeling called to work with the alliance of spirit guides that have co-created the Findhorn Spirit Oracle deck you can join one of the following online groups: </h3>
+		
+	  <section class="features">
+        <div class="container-fluid">
+        <div class="row">
+	      <div class="col-md-6">
+		  <i class="fa fa-heart" aria-hidden="true"></i>
+		  <h2>Gathering Spirit</h2>
+		  <h3>This is a weekly online study group to explore and connect with the spirit guides of the Findhorn Spirit Oracle.</h3>
+          <hr class="my-6">
+          <p>Join us on a Tuesday evening when a sacred space is hosted by Swan and a conscious container for co-creative spirituality is open so that the communication with spirit can flow. Sharing our experiences we learn and heal together..
+          This is an open group and each gathering will be of one and a half hour on zoom. </p>
+          <p>Pay what you can: £5-£10–£20-more</p>
+          <p class="lead"> <a class="btn btn-info btn-sm" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" target="_blank" role="button">Book your place</a></p>
+	      </div>	  
 	
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/Findhorn-Spirit-Oracle-107204431407490/ " role="button"><i class="fab fa-facebook-f"></i></a>
+	      <div class="col-md-6">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+		  <h2>Sharing Spirit</h2>
+          <h3>If you wish for a deep and personal interaction with the spirit beings of the Findhorn Spirit Oracle and to connect with other fellow explorer of he subtle realms come on this eight weeks expansive journey of consciousness.</h3>
+          <hr class="my-6">
+          <p>Each week will be dedicated to form a personal relationship with the spirit guides of one of the directions featured in the deck, plus there will be two weeks to get acquainted with the Landscape Angel and the Angel of Findhorn.
+          Swan will closely support each participant of this group in their evolutionary journey and if needed she will assist in releasing any communication’s block that may arise along the way in a one to one zoom call.</p>
+          <p>A Whatsapp group will be available for participants who wish to keep in touch with each others during the week.
+          NUMBERS ARE LIMITED TO EIGHT PEOPLE IN EACH GROUP.</p>
+          <h3>NEXT STARTING DATE 22ND OCTOBER</h3>
+          <p>PRE-PUBLICATION SPECIAL OFFER PRICE £450 (two scholarships available email <a href="mailto:ORACLE@SWANTREASURE.COM">oracle@swantreasure.com</a> to inquire) </p>
+          <p class="lead"> <a class="btn btn-info btn-sm" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" target="_blank" role="button">Book your place</a></p>
+	      </div>	  	
+    </div>
+    </div>
+    </section>
+<!-- containerOffers / Groups & Events-->
 
-        <!-- Twitter -->
+
+    <div id="illuminatedDialogues" class="containerBG">
+      <img class="containerBG" src="images/illuminatedBannerA.jpg" width="100%" alt="Illuminated Dialogues &amp; Mentoring" />
+      <!--    <h1 class="containerBG"></h1>Illuminated Dialogues &amp;  Mentoring-->
+    </div>
+	<section class="features">
+        <div class="container-fluid">
+        <div class="row">
+	      <div class="col-md-6">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+		  <h2>Illuminated Dialogues</h2>
+		  <h3>These are one-to-one consultations with Swan which last for 90 minutes.</h3>
+          <hr class="my-6">
+          <p>Any topic can be brought to awareness in this kind of sessions which aim to rebalance and shine light wherever in your mind and heart there is uncertainty, suffering or confusion. I draw from years of experience of assisting people to
+          envision and establish a life of joy and fulfillment as well as using my NLP, transpersonal counseling, systemic and coaching skills. </p>
+          <p>Cost: £80</p>
+          <p>To express your interest or if you have any questions about this process please email swan@swan.treasure.com</p>
+          <p class="lead"> <a class="btn btn-info btn-sm" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" target="_blank" role="button">Book a session</a> </p>
+	    </div>	  
+	
+	      <div class="col-md-6">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+	   	  <h2>Mentoring</h2>
+          <h3>I love to be with people who are switched on. So I designed these sessions to do just this: turn on the light of awareness and open the flow of inspiration through creative conversations.</h3>
+          <hr class="my-6">
+          <p>Each session is the expression of the meeting of our uniqueness moment by moment, so it is not possible to clearly define its content.
+          The focus is on deep inner listening and connection with our essential nature. The session are designed as practice to refine our perception and communication channels through cycles of giving and receiving attention, each last an hour and
+          a half and include a 15 minutes initial silent sitting.
+          The best way to find out how about this is to book a free exploratory session.</p>
+          <p>Cost: £80 for the first session / £300 for a pack of four sessions </p>
+          <p class="lead"> <a class="btn btn-info btn-sm" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" target="_blank" role="button">Book a free exploratory 30 minutes session</a> </p>
+	    </div>	  	
+    </div>
+    </div>
+    </section>
+<!-- containerOffers / Illuminated Dialogues & Mentoring-->
+
+    <div id="transformationGame" class="containerBG">
+      <img class="containerBG" src="images/transformationGameBanner.jpg" width="100%" alt="Transformation Game" />
+    </div> <!-- containerBG-->
+    <div>
+
+      <div class="card col-md-8 col-lg-6 serviceCard">
+        <div class="card-body">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+          <h2 class="card-title text-center">Facilitated Transformation Game</h2>
+          <h3 class="card-text"><strong>Playing the Transformation game is an effective way to: </strong>
+            <br><br>
+            <uli>
+              <li>clarify important issues</li>
+              <li>resolve conflicts and release negative patterns</li>
+              <li>enhance relationships</li>
+              <li>release fears and open to new perspectives</li>
+              <li>find new directions and move forward with ease and grace</li>
+              <li>achieve your goals</li>
+              <li> shine in your radiance</li>
+            </uli>
+          </h3>
+          <hr class="my-6">
+          <p><strong>How does it work?</strong> <br>
+            You will start by setting a clear focus for playing the game, an intention that is important for you at this time. Then on a board game you will move along the symbolic representation of your life path, using a dye to determine how many
+            steps. <br>
+            The game will mirror your attitudes and unconscious believes about the issue you bring to it, therefore offering you the possibility for transformation and change. While playing you will move through experiences in which you will able to
+            gain new isights and awareness that will lead to progress or come across obstacles that may uncover some old pain, so that you can learn how to release it. <br>
+            You will be empowered to discover and tap into your strengths as well as the metaphysical help which is always available when we chose to recognise it.</p>
+          <p>Cost: £50 per hour. Minimum three hours needed.</p>
+          <p class="lead"><a class="btn btn-info btn-sm" href="https://www.picktime.com/645c0941-bf23-4d6f-85a3-ec3eed7490ac" target="_blank" role="button">Book a Game</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="contactUs" class="containerContact">
+      <img class="containerBG" src="images/Contactbanner2.jpg" />
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="containerFooter p-4 pb-0" style="background-color: #E0EAF4;">
+		  
+		  
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<section class="mailingList">
+<style type="text/css">
+#mc_embed_signup{background:#fff; font:14px; width:100%; padding: 0 0 10px;}
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://swantreasure.us5.list-manage.com/subscribe/post?u=806c2b0e9ec678d95b69fa533&amp;id=30f2f77c8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<label for="mce-EMAIL"><p style="color: darkturquoise;1DB3C0">Sign up to our mailing list to receive updates and special offers</p></label>
+<!--<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>-->
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_806c2b0e9ec678d95b69fa533_30f2f77c8f" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info btn-sm"></div>
+    </div>
+</form>
+</div>
+</section>
+
+<!--End mc_embed_signup-->
+        <!-- Section: Social media -->
+        <p>For questions about workshops, Oracle Cards, commissioned works or anything else please contact me via the buttons below. Thank you!</p>
+
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-info btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/Findhorn-Spirit-Oracle-107204431407490/ " role="button"><i class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <!--
         <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
 
-        <!-- Google -->
+         Google
         <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i></a>
+-->
 
-        <!-- Instagram -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+          <!-- Instagram -->
+<!--          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>-->
 
-        <!-- Linkedin -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-		  
-        <!-- Email -->
-        <a class="btn btn-primary btn-floating m-1" style="background-color: #a569bd ;" href="mailto:ORACLE@SWANTREASURE.COM ?subject=Web Inquiry" role="button"><i class="fas fa-envelope"></i></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
+          <!-- Linkedin -->
+<!--          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>-->
 
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #BEACC9;">
-      © 2021 Copyright:
-      <a class="text-white" href="https://SwanTreasure.com/">SwanTreasure.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+          <!-- Email -->
+          <a class="btn btn-info btn-floating m-1" style="background-color: #a569bd ;" href="mailto:ORACLE@SWANTREASURE.COM ?subject=Web Inquiry" role="button"><i class="fas fa-envelope"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
 
+<!--End mc_embed_signup-->
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #333399 ;">
+        © 2021 Copyright:
+        <a class="text-white" href="https://swantreasure.com/">SwanTreasure.com</a>
+      </div>
+
+      <!-- Copyright -->
+    </footer>
+  </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-3.4.1.min.js"></script>
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/oracleReading.js"></script>
+  <script src="/path/to/cdn/jquery.min.js"></script>
+  <script src="dist/js/lightbox.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#ff9249",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#ffffff",
+      "border": "#ffffff"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "message": "This website uses cookies to ensure you get the best experience on our website. By continuing browsing this site, you are agreeing to our use of cookies. ",
+    "allow": "Accept"
+  }
+});
+</script> 
+
 </body>
 
 </html>
