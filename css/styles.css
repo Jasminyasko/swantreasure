@@ -118,8 +118,8 @@ p {
 }
 @media (max-width: 480px) {
 .containerNarrow {
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 }
 
@@ -150,8 +150,8 @@ p {
 }
 @media (max-width: 480px) {
 .containerBG h1 {
-  font-size: 3.8em
-  line-height: 0.8;
+  font-size: 3.5em
+  line-height: 0.7;
 }
 }
 
