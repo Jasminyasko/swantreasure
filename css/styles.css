@@ -268,7 +268,12 @@ img.sample1{
   margin-left: 20%;
   margin-right: 20%;
 }
-
+@media (max-width: 480px) {
+.containerAbout {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+}
 .footer {
   position: fixed;
   left: 0;
