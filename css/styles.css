@@ -270,8 +270,8 @@ img.sample1{
 }
 @media (max-width: 480px) {
 .containerAbout {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 }
 .footer {
