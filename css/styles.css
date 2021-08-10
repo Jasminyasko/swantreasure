@@ -63,6 +63,11 @@ h1 {
   color: #1DB3C0;
   padding-bottom: 30px;
 }
+@media (max-width: 480px) {
+  h1{
+  font-size: 3.8em;
+}
+}
 
 h2 {
   font-size: 3.2em;
@@ -71,7 +76,11 @@ h2 {
   font-weight: normal;
   line-height: 1;
 }
-
+@media (max-width: 480px) {
+  h2{
+  font-size: 3.2em;
+}
+}
 h3 {
   font-family: 'Open Sans', sans-serif;
   color: #666666;
@@ -118,8 +127,8 @@ p {
 }
 @media (max-width: 480px) {
 .containerNarrow {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 }
 
@@ -143,6 +152,7 @@ p {
   margin: 0;
   padding: 0
 }
+
 @media (max-width: 768px) {
 .containerBG h1 {
   font-size: 5.6em;
@@ -150,8 +160,9 @@ p {
 }
 @media (max-width: 480px) {
 .containerBG h1 {
-  font-size: 4em
+  font-size: 3.4em;
   line-height: 0.7;
+  font-weight: 500;
 }
 }
 
@@ -270,8 +281,8 @@ img.sample1{
 }
 @media (max-width: 480px) {
 .containerAbout {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 }
 .footer {
