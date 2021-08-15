@@ -331,21 +331,15 @@ img.sample1{
 
 hr {
   border-style: dotted none none none;
-  border-color: #ffcc98;
+  border-color: #b8b9e7;
   border-width: 7.25px;
   width: 17%;
   margin: 40px auto;
 }
 
-.mailingList{
-	margin:0 30% 15px;
+.symbols{
+	width:30px;
+	opacity: 0.75;
+	padding: 40px 0 20px;
 }
-@media (max-width: 768px) {
-	.mailingList{
-	margin:0 10% 15px;
-	}
-}
-@media (max-width: 480px) {
-	.mailingList{
-	margin:0 3% 15px;
-	}}
+
