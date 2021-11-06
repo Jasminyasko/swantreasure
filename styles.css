@@ -1,0 +1,346 @@
+/* Plugins */
+/* Navbar */
+#app-navbar {
+  background: linear-gradient(120deg, #0cf9e5, #400080);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 40px;
+
+}
+.navbar-custom {
+  background-color: #4DDDE0;
+  color: white;
+}
+
+/*back to top button*/
+#page_top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+#page_top a {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f139';
+  font-size: 50px;
+  color: #3fefee;
+}
+
+/* General Font */
+#brand-logo {
+  font-family: 'Qwigley', cursive;
+  font-size: 2.4em;
+  font-weight: 500;
+}
+
+body {
+  background: white;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Qwigley', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4.2em;
+  font-family: 'Qwigley', cursive;
+  font-weight: 400;
+  line-height: 1;
+  color: #1DB3C0;
+  padding-bottom: 30px;
+}
+@media (max-width: 480px) {
+  h1{
+  font-size: 3.8em;
+}
+}
+
+h2 {
+  font-size: 3.2em;
+  font-family: 'Qwigley', cursive;
+  color: #1DB3C0;
+  font-weight: normal;
+  line-height: 1;
+}
+@media (max-width: 480px) {
+  h2{
+  font-size: 3.2em;
+}
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  font-size: 1rem;
+  Font-weight: lighter;
+}
+
+a {
+  color: #1DB3C0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  font-size: 1rem;
+}
+.features h3{
+	  text-align: left;
+}
+.features p{
+	  text-align: left;
+}
+.bigger { 
+	font-size:175%;}
+
+.fa-heart{
+	font-size: 1.3em;
+	opacity: 0.3;
+	color: #1DB3C0;
+}
+
+/*Divisions*/
+.containerNarrow {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+@media (max-width: 480px) {
+.containerNarrow {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+}
+
+.welcomeMessage{
+  padding: 5px 0 40px;
+}
+
+.containerBG {
+  position: relative;
+}
+.containerBG h1 {
+  color: white;
+  font-size: 5.8em;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0
+}
+
+@media (max-width: 768px) {
+.containerBG h1 {
+  font-size: 4.4em;
+}
+}
+@media (max-width: 480px) {
+.containerBG h1 {
+  font-size: 3.2em;
+  line-height: 0.75;
+  font-weight: 500;
+}
+}
+
+.features{
+  padding: 3% 15%;
+}
+@media (max-width: 768px) {
+.features{
+  padding: 6% 5%;
+}
+}
+@media (max-width: 480px) {
+.features{
+  padding: 6% 3%;
+}
+}
+
+.columnImageSmall {
+  width: 75%;
+}
+
+.justifyText h3{
+	text-align: left;
+}
+.justifyText p{
+	text-align: left;
+}
+
+.btnBookShop {
+  background-color: white;
+  border-color: lightgray;
+  height: 40px;
+}
+
+.bookShopLogo {
+  height: 30px;
+}
+
+  #display img {
+  width: 360px;
+}
+@media (max-width: 480px) {
+  #display img {
+  width: 70%;
+}
+}
+
+.serviceCard {
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards-container div:first-child {
+  margin: 0;
+}
+
+button.reading {
+  font-family: 'Open Sans', sans-serif;
+  background-color: dodgerblue;
+}
+
+.forSale {
+  overflow-x: scroll;
+}
+.imgForSale {
+  white-space: nowrap;
+}
+.listForSale {
+  display: inline-block;
+  white-space: normal;
+}
+img.sample1{
+	width: 250px;
+}
+.sample1 {
+  width: 125px;
+  height: 175px;
+  overflow: hidden;
+  margin: 10px 8px 10px 16px;
+  position: relative;
+  /* arts for sale section */
+}
+
+.sample1 .caption {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+.sample1 .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.sample1:hover .mask {
+  opacity: 1;
+}
+
+/* About Swan page */
+.containerAbout {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+@media (max-width: 480px) {
+.containerAbout {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.containerContact {
+  width: 100%;
+  position: relative;
+}
+
+.containerContact h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #400080;
+  font-size: 7em;
+  line-height: 0.7;
+}
+@media (max-width: 768px) {
+.containerContact h1 {
+  font-size: 5.6em;
+}
+}
+@media (max-width: 480px) {
+.containerContact h1 {
+  font-size: 4em;
+}
+}
+
+.containerContact img {
+  width: 100%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #b8b9e7;
+  border-width: 7.25px;
+  width: 17%;
+  margin: 40px auto;
+}
+
+.symbols{
+	width:30px;
+	opacity: 0.75;
+	padding: 40px 0 20px;
+}
